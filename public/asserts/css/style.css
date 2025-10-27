@@ -1,6 +1,6 @@
  @font-face {
     font-family: "SansitaSwashed";
-    src: url("/public/asserts/fonts/SansitaSwashed-VariableFont_wght.ttf");
+    src: url("../fonts/SansitaSwashed-VariableFont_wght.ttf");
 }
 
 * {
@@ -40,8 +40,8 @@ html {
   z-index: 1000; 
 }
 .r-p{
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 9rem;
+    padding-left: 9rem;
 }
 
 
@@ -79,8 +79,6 @@ gap: 3rem;
  font-family: "Poppins";
  font-weight: 600;
  padding-top: 2rem;
- margin-top: 5rem;
- padding-left: 7rem;
 }
 
 .h-heading {
@@ -92,7 +90,7 @@ gap: 3rem;
 }
 
 .bg-header-img {
-    background-image: url("/public/asserts/images/bg-img.png");
+    background-image: url("../images/bg-img.png");
     background-size: cover;
     width: 100vw;
     min-height: 100vh;
@@ -133,14 +131,12 @@ gap: 3rem;
 }
 
 .bg-product-img {
-    background-image: url("/public/asserts/images/Rectangle\ 69\ \(1\).png");
+    background-image: url("../images/Rectangle\ 69\ \(1\).png");
     background-repeat: no-repeat;
-    gap: 5px;
-    margin-bottom: 2rem;
 }
 
 .bg-cover {
-    width: 180px;
+    width: 300px;
 }
 
 .img-div {
@@ -176,7 +172,7 @@ gap: 3rem;
 .offer-page {
     height: 400px;
     width: 100vw;
-    background-image: url("/public/asserts/images//offer-img.png");
+    background-image: url("../images/offer-img.png");
     margin-top: 80px;
     margin-bottom: 60px;
     background-size: cover;
@@ -264,7 +260,7 @@ gap: 3rem;
 .wheat-bg {
     height: 400px;
     width: 100vw;
-    background-image: url("/public/asserts/images/wheat.png");
+    background-image: url("../images/wheat.png");
     margin-top: 80px;
     margin-bottom: 60px;
     background-size: cover;
@@ -313,7 +309,7 @@ gap: 3rem;
 }
 
 .last-bg-img {
-    background-image: url("/public/asserts/images/last-bg.png");
+    background-image: url("../images/last-bg.png");
     width: 100vw;          
     min-height: 750px;        
     margin-top: 6rem;
@@ -425,13 +421,11 @@ gap: 3rem;
   display: none;
   font-size: 2rem;
   cursor: pointer;
-  margin-left: auto;
 }
 
 @media (max-width: 768px) {
   .nav-wrapper {
     padding: 1rem 2rem;
-   
   }
 
   .nav-text {
@@ -460,15 +454,10 @@ gap: 3rem;
     font-size: 1.2rem;
   }
 }
-.bg-product-img{
-   transition: all 0.4s ease;
-  transform-style: preserve-3d;
-}
-.bg-product-img:hover {
-  transform: scale(1.07) rotateX(5deg);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
-}
 
+
+@media (max-width: 480px) {
+}
 
 @media (min-width: 480px) and (max-width: 958px) {
 
@@ -561,7 +550,10 @@ gap: 3rem;
   }
  
 }
+@media (min-width:974px) and (max-width: 1460px) {
 
+
+}
 @media (max-width: 480px) {
    body {
       font-size: 14px;
@@ -590,19 +582,4 @@ gap: 3rem;
    body {
       font-size: 18px;
    }
-}
-@media (min-width: 989px) and (max-width: 1478px){
-
-    .whole{
-       font-size: 0.9rem; 
-    }
-    .add-btn{
-    width: 4rem;
-    height: 2rem;
-    border-radius: 0.5rem;
-    border-color: #933C24;
-    border: none;
-    }
-
-
 }
